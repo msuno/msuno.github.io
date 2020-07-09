@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ccs on msuno</title>
-    <link>http://www.example.com/cc/</link>
+    <link>https://msuno.github.io/cc/</link>
     <description>Recent content in Ccs on msuno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -11,15 +11,15 @@
     <copyright>(c) 2019 msuno</copyright>
     <lastBuildDate>Tue, 07 Jul 2020 13:22:28 +0800</lastBuildDate>
     
-	<atom:link href="http://www.example.com/cc/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://msuno.github.io/cc/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First</title>
-      <link>http://www.example.com/cc/first/</link>
+      <link>https://msuno.github.io/cc/first/</link>
       <pubDate>Tue, 07 Jul 2020 13:22:28 +0800</pubDate>
       <author>msuno@msuno.cn (msuno)</author>
-      <guid>http://www.example.com/cc/first/</guid>
+      <guid>https://msuno.github.io/cc/first/</guid>
       <description></description>
     </item>
     

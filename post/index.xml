@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on msuno</title>
-    <link>http://www.example.com/post/</link>
+    <link>https://msuno.github.io/post/</link>
     <description>Recent content in Posts on msuno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
@@ -11,15 +11,15 @@
     <copyright>(c) 2019 msuno</copyright>
     <lastBuildDate>Tue, 07 Jul 2020 13:22:28 +0800</lastBuildDate>
     
-	<atom:link href="http://www.example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://msuno.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ngrok build</title>
-      <link>http://www.example.com/2020/07/07/ngrok-build/</link>
+      <link>https://msuno.github.io/2020/07/07/ngrok-build/</link>
       <pubDate>Tue, 07 Jul 2020 13:22:28 +0800</pubDate>
       <author>msuno@msuno.cn (msuno)</author>
-      <guid>http://www.example.com/2020/07/07/ngrok-build/</guid>
+      <guid>https://msuno.github.io/2020/07/07/ngrok-build/</guid>
       <description>1、首先下载nginx源码 mkdir /data cd /data wget https://nginx.org/download/nginx-1.17.0.tar.gz 2、解压软件源码并安装 在安装软件之前先安装gcc,gcc-g++
 yum install -y gcc* g++* 接下来便是安装软件
 tar -zxvf nginx-1.17.0.tar.gz cd nginx-1.17.0 ./configure --prefix=/usr/local/nginx make &amp;amp;&amp;amp; make install 3、添加到systemctl管理nginx vim /usr/lib/systemd/system/nginx.service [Unit] Description=nginx - high performance web server Documentation=http://nginx.org/en/docs/ After=network.target remote-fs.target nss-lookup.target [Service] Type=forking PIDFile=/usr/local/nginx/logs/nginx.pid ExecStartPre=/usr/local/nginx/sbin/nginx -t -c /usr/local/nginx/conf/nginx.conf ExecStart=/usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf ExecReload=/bin/kill -s HUP $MAINPID ExecStop=/bin/kill -s QUIT $MAINPID PrivateTmp=true [Install] WantedBy=multi-user.target 4、安装nginx的其他模块 下载模块，可以下载到/data目录下，比如安装nginx的rtmp模块
